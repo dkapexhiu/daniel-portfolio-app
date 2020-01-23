@@ -1,16 +1,16 @@
 {
   "expo": {
-    "name": "portfolio",
-    "description": "No description",
-    "slug": "portfolio",
+    "name": "daniel-portfolio-app",
+    "description": "dkapexhiu/daniel-portfolio-app @ Jan 23, 2020",
+    "slug": "snack-4c54349e-02fc-4394-a300-9209334aab4c",
     "privacy": "unlisted",
     "sdkVersion": "36.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
-    "icon": "./assets/logo.png",
+    "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
     "loading": {
-      "icon": "./assets/logo.png",
+      "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
       "hideExponentText": false
     },
     "packagerOpts": {
@@ -22,11 +22,7 @@
       ]
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.danielk.portfolio"
-    },
-    "android": {
-      "package": "com.danielk.portfolio"
+      "supportsTablet": true
     }
   }
 }

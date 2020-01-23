@@ -21,7 +21,7 @@ class HeaderNavigationBar extends Component {
                 />
             </TouchableHighlight>
             <Text style={{ fontWeight: 'bold', fontSize: 22, color: 'white', marginLeft:'auto', marginRight:'auto', marginTop: 15 }}>
-              Portfolio
+              Minimal Portfolio
             </Text>
         </View>);
     }

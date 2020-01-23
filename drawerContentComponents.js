@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {NavigationActions} from 'react-navigation';
 import { Text, View, StyleSheet, ImageBackground } from 'react-native'
-import { white } from 'ansi-colors';
 
 export default class drawerContentComponents extends Component {
 
@@ -17,7 +16,7 @@ export default class drawerContentComponents extends Component {
     return (
         <View style={styles.container}>
             <View style={styles.headerContainer}>
-                <ImageBackground source={require('./assets/logo.png')} style={{flex: 1}} >
+                <ImageBackground source={require('./assets/logo.png')} style={{flex: 1, marginTop: 15 }} >
                 </ImageBackground>
             </View>
             <View style={styles.screenContainer}>

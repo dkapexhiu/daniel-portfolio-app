@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "sdkVersion": "36.0.0",
+  "dependencies": {
+    "ansi-colors": "3.2.1",
+    "expo": "^36.0.0",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-webview": "^8.0.4",
+    "react-navigation": "2.18.2"
+  }
+}

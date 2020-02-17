@@ -207,6 +207,36 @@ export class SukoScreen extends Component {
     }
 }
 
+export class AlbaniaScreen extends Component {
+  render() {
+      return (<View style={{
+          flex: 1,
+          flexDirection: 'column',
+      }}> 
+      <HeaderNavigationBar {...this.props} />
+      <WebView
+        source={{uri: 'http://albania.al/'}}
+        style={{flex: 1}}
+      />
+      </View>);
+  }
+}
+
+export class UnitirScreen extends Component {
+  render() {
+      return (<View style={{
+          flex: 1,
+          flexDirection: 'column',
+      }}> 
+      <HeaderNavigationBar {...this.props} />
+      <WebView
+        source={{uri: 'https://unitir.edu.al/'}}
+        style={{flex: 1}}
+      />
+      </View>);
+  }
+}
+
 export default DrawerNavigator (
     {
       Aitc:{
@@ -244,6 +274,12 @@ export default DrawerNavigator (
       },
       Suko:{
         screen:SukoScreen
+      },
+      Albania:{
+        screen:AlbaniaScreen
+      },
+      Unitir:{
+        screen:UnitirScreen
       },
     },{
         initialRouteName:'Daniel',

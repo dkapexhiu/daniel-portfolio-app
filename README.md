@@ -1,1 +1,1 @@
-# hitweb-app-expo-react-native
+# daniel-minimal-app-expo-react-native

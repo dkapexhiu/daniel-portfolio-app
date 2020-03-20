@@ -62,6 +62,9 @@ export default class drawerContentComponents extends Component {
                 <View style={styles.screenStyle}>
                     <Text style={styles.textStyle} onPress={this.navigateToScreen('Unitir')}>Unitir</Text>
                 </View>
+                <View style={styles.screenStyle}>
+                    <Text style={styles.textStyle} onPress={this.navigateToScreen('Kozo')}>Kozo</Text>
+                </View>
             </View>
         </View>
     

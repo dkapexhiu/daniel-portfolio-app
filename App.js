@@ -237,6 +237,21 @@ export class UnitirScreen extends Component {
   }
 }
 
+export class KozoScreen extends Component {
+  render() {
+      return (<View style={{
+          flex: 1,
+          flexDirection: 'column',
+      }}> 
+      <HeaderNavigationBar {...this.props} />
+      <WebView
+        source={{uri: 'http://kozogh.com'}}
+        style={{flex: 1}}
+      />
+      </View>);
+  }
+}
+
 export default DrawerNavigator (
     {
       Aitc:{
@@ -281,6 +296,9 @@ export default DrawerNavigator (
       Unitir:{
         screen:UnitirScreen
       },
+      Kozo:{
+        screen:KozoScreen
+      }
     },{
         initialRouteName:'Daniel',
         contentComponent: drawerContentComponents

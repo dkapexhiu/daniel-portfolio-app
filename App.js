@@ -16,8 +16,7 @@ class HeaderNavigationBar extends Component {
             <TouchableHighlight style={{ marginLeft: 10, marginTop: 15 }}
                 onPress={() => { this.props.navigation.openDrawer() }}>
                 <Image
-                    style={{ width: 32, height: 32 }}
-                    source={{uri: 'https://png.icons8.com/ios/2x/menu-filled.png'}}
+                    source={{uri: './assets/menu-icon.png'}}
                 />
             </TouchableHighlight>
             <Text style={{ fontWeight: 'bold', fontSize: 22, color: 'white', marginLeft:'auto', marginRight:'auto', marginTop: 15 }}>
